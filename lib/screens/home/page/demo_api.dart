@@ -24,7 +24,7 @@ class DemoAPI extends StatelessWidget {
         future: fetchData(),
         builder: (context, snapshot) {
           if (snapshot.hasData) {
-            final data = snapshot.data!['products'][10];
+            final data = snapshot.data!['products'][1];
 
             return Card(
               shape: RoundedRectangleBorder(
@@ -79,14 +79,14 @@ class DemoAPI extends StatelessWidget {
                         fontSize: 16,
                       ),
                     ),
-                    Text(
+                    /*Text(
                       '\$ ${data['discountPercentage']}',
                       style: TextStyle(
                         color: Colors.grey,
                         fontSize: 14,
                         decoration: TextDecoration.lineThrough,
                       ),
-                    ),
+                    ),*/
                     SizedBox(height: 8),
                     // Rating & Reviews
                     Row(

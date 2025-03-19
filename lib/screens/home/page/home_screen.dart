@@ -36,19 +36,19 @@ class HomeScreen extends StatelessWidget {
             // Product Image
             Center(
               child: Image.network(
-                'https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png', // Replace with actual image URL
+                'https://images.pexels.com/photos/19090/pexels-photo.jpg', // Replace with actual image URL
               ),
             ),
             SizedBox(height: 12),
             // Product Name
             Text(
-              'TMA-2 HD Wireless',
+              'TMA HD Wireless',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 4),
             // Price
             Text(
-              '\$ 1000.00',
+              '\$ 100.00',
               style: TextStyle(
                 color: Colors.red,
                 fontWeight: FontWeight.bold,
@@ -56,7 +56,7 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             Text(
-              'Rp 1.500.000',
+              'Rp 500.000',
               style: TextStyle(
                 color: Colors.grey,
                 fontSize: 14,
